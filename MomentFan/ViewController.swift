@@ -8,10 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var postDateLabel: UILabel!
+    @IBOutlet var locationLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        postDateLabel.text = "October 16, 2022"
+        locationLabel.text = "London, United Kingdom"
     }
 
 
